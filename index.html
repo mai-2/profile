@@ -14,8 +14,51 @@
   <script defer src="./js/script.js"></script>
 </head>
 <body>
-  <div class="inner">
-  <p class="test">変更のテスト</p>
-</div>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <img src="./images/common/logo.svg" alt="Profile">
+      </h1>
+      <nav class="header__nav">
+        <a href="#about" class="header__link">About</a>
+        <a href="#bicycle" class="header__link">Bicycle</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="mv">
+      <img src="./images/common/mainvisual.jpg" alt="">
+    </div>
+    <section id="about" class="about">
+      <h2 class="section-title about__title">About</h2>
+      <div class="about__content">
+        <figure class="about__image">
+          <img src="./images/common/about.jpg" alt="自画像">
+        </figure>
+        <div class="about__textblock">
+          <h3 class="section-lead about__lead">KAKERU MIYAICHI</h3>
+          <p class="section-text about__text">
+            テキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="bicycle" class="bicycle">
+      <div class="bicycle__items">
+        <div class="bicycle__item">
+          <figure class="bicycle__image">
+            <img src="./images/common/bicycle1.jpg" alt="自転車">
+          </figure>
+          <h3 class="section-lead bicycle__lead">タイトルタイトル</h3>
+          <p class="section-text bicycle__text">テキストテキストテキスト</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <small class="footer__copyright">copy; 2020 Profile</small>
+  </footer>
 </body>
 </html>
