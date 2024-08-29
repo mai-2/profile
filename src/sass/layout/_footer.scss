@@ -1,1 +1,11 @@
 @use "global" as *;
+
+.footer {
+    margin-top: 110px;
+}
+
+.footer__copyright {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+}
